@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Markazi+Text&display=swap');
+
+.Main{
+    width:97%;
+    margin:1em auto 0 auto;
+    font-family: 'Markazi Text', serif;
+    
+}
+.Main > div{
+    padding:1em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center
+}
+.Main > div h1{
+    color:#0078f2;
+}
+.Main > div button{
+    cursor: pointer;
+    padding:1em;
+    border-radius:50%;
+    color:#bdbdbd;
+    border:none;
+    outline:none;
+    background:#1a1a1a
+}
+.Main > div button:hover{
+    color:#eeeeee;
+}
+.Main ul{
+    width:100%;
+    padding:2em 0 0 0;
+    display:flex;
+    flex-wrap:wrap;
+    list-style:none
+}
+.Main ul li{
+    width:15em;
+    margin: 1em;
+    cursor:pointer
+}
+.Main ul li .Img{
+    width:100%;
+    height:10em;
+    border-radius: .5em
+}
+.Main ul li .Contnt{
+    padding: 1em 0;
+    text-align:center
+}
+.Main ul li .Contnt h1{
+    padding:.5em 0 1em 0;
+    color:#f1f1f1
+}
+.Main ul li .Progress{
+    width: 100%;
+    border-radius: 1em;
+    background: #1a1a1a;
+    padding:.5em;
+    text-align:center;
+    overflow:hidden;
+    position:relative
+}
+.Main ul li .Progress p{
+    color:#eeeeee;
+    position: relative;
+    z-index: 1;
+}
+.Main ul li .Progress div {
+    position:absolute;
+    width:30%;
+    height:100%;
+    top:0;
+    left: 0;
+    background:#b21ce0;
+    border-radius: 1em;
+}
+
+@media only screen and (max-width:986px){
+    .Main{
+        width:95%
+    }
+    .Main ul li{
+        width:100%;
+        margin : 1em 0
+    }
+    .Main ul li .Img{
+        height: 12em
+    }
+}

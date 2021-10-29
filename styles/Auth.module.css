@@ -1,0 +1,35 @@
+.Auth{
+    width:80%;
+    margin: auto;
+    height:calc(100vh - 50px);
+    display: grid;
+    place-items: center
+}
+.Auth form {
+    text-align: center
+}
+.Auth form h1{
+    color:#eeeeee;
+    padding:1em 0
+}
+.Auth form input{
+    margin:.5em 0;
+    padding: 1em;
+    border-radius: .5em;
+    outline: none;
+    border: none;
+    width:30em;
+    background: #1a1a1a;
+    color:#eeeeee
+}
+.Auth form button{
+    width:30em;
+    cursor:pointer;
+    margin:.5em 0;
+    padding:1em;
+    outline: none;
+    border: none;
+    border-radius: .5em;
+    color: #eeeeee;
+    background:#0078f2
+}
